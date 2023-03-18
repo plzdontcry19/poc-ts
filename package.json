@@ -7,13 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build && node dist/src/index.js",
     "start:dev": "npx nodemon",
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./dist && tsc",
+    "lint": "eslint \"{src,test}/**/*.ts\"",
+    "lint:fix": "eslint \"{src,test}/**/*.ts\" --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.15.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "nodemon": "^2.0.21",
     "rimraf": "^4.4.0",
     "ts-node": "^10.9.1",
