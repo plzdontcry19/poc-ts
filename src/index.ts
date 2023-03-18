@@ -1,8 +1,5 @@
 const main = () => {
-    for (let index = 0; index < 3; index++) {
-        console.log('helo');
-        
-    }
+  console.log("helo world")
 }
 
-main();
+main()
