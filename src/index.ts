@@ -1,9 +1,7 @@
-const main = (nums: number[]) => {
 
-    for (let index = 0; index < nums.length; index++) {
+const main = () => {
+    // return (main(nums, indx - 1))
+};
 
-    }
-
-}
-
-main([1, 3, 5, 5, 7, 6, 7, 9, 10, 23]);
+const result = main();
+console.log('result: ', result);
