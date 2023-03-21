@@ -1,7 +1,7 @@
 
-const main = () => {
-    // return (main(nums, indx - 1))
-};
+const main = (): void => {
+    console.log('hello world!');
+}
 
-const result = main();
-console.log('result: ', result);
+
+main();
